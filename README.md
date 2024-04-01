@@ -1,6 +1,6 @@
 # Dragtraffic
 The Repo for Dragtraffic: A Non-Expert Interactive and Point-Based Controllable Traffic Scene Generation Framework.
-[Project page]<https://chantsss.github.io/Dragtraffic/>
+[Project page](https://chantsss.github.io/Dragtraffic/)
 
 # We are preparing
 We are sorting out the code and the relevant code will be released soon in the following order:
