@@ -8,7 +8,7 @@ The Repo for [Dragtraffic: A Non-Expert Interactive and Point-Based Controllable
 
 # We are preparing
 We are sorting out the code and the relevant code will be released soon in the following order:
-1. - [ ] Paper releasing.
+1. - [ ] Paper releasing(Under review now).
 2. - [ ] Model files and checkpoints. 
 3. - [ ] UI and Inference demo code.
 4. - [ ] Training code.
