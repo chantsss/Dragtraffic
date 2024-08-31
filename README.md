@@ -1,11 +1,10 @@
 # Dragtraffic
-The Repo for [Dragtraffic: A Non-Expert Interactive and Point-Based Controllable Traffic Scene Generation Framework](https://chantsss.github.io/Dragtraffic/).
+The Repo for [Dragtraffic: Interactive and Controllable Traffic Scene Generation for Autonomous Driving](https://chantsss.github.io/Dragtraffic/).
 
 **News**: Dragtraffic has been accepted by [**IROS2024**](https://iros2024-abudhabi.org), I will try my best to release the code before the end of august.
 
 [**Webpage**](https://chantsss.github.io/Dragtraffic/) | 
 [**Paper**](https://arxiv.org/abs/2404.12624) |
-
 
 ![](assets/overview.jpg)
 
@@ -19,28 +18,20 @@ We are sorting out the code and the relevant code will be released soon in the f
 ## Setup environment
 
 ```bash
-# Clone the code to local
-git clone https://github.com/metadriverse/trafficgen.git
-cd trafficgen
+# Clone the repository and set up the environment:
 
-# Create virtual environment
-conda create -n trafficgen python=3.9.12
-conda activate trafficgen
+git clone https://github.com/chantsss/Dragtraffic
+cd dragtraffic
 
-# You should install pytorch by yourself to make them compatible with your GPU
-# For cuda 11.0:
-# pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
+# Create a virtual environment
+conda create -n dragtraffic python=3.9.12
+conda activate dragtraffic
 
-pip install torch==1.13.0+cu116 torchvision==0.14.0+cu116 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu116 -i https://pypi.tuna.tsinghua.edu.cn/simple
-# Install basic dependency
-# cd ..
-pip install pytorch-lightning -i https://pypi.tuna.tsinghua.edu.cn/simple
-
-pip install -e . -i https://pypi.tuna.tsinghua.edu.cn/simple
-pip install opencv-python
-pip install waymo-open-dataset-tf-2-11-0==1.6.0 # for data preprocess
-pip install ray -i https://pypi.tuna.tsinghua.edu.cn/simple
+# Install PyTorch and other dependencies
+pip install torch==1.13.0+cu116 torchvision==0.14.0+cu116 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu116 
+pip install -e .
 ```
+
 
 
 # Citation
