@@ -1,0 +1,42 @@
+# Config format schema number
+format_version: 4
+
+model: 'drag' # 'drag' or 'diffusion' or 'trafficgen' or 'mae' or 'led'
+mixture_data: False
+diff_base: 'unet' #'unet' # or 'transformer'
+condition_context: True # swith on ego or not
+debug: False
+freeze_diff: True
+unfreeze_at_model_epoch: 10
+NUM_Tau: 5
+
+init_model_path: '/home/sheng/simulator/dragtraffic/dragtraffic/lightning_logs/trafficdrag_test/version_0/checkpoints/model-epoch=17-val_loss=0.00.ckpt'
+diff_model_path: '/home/sheng/simulator/dragtraffic/dragtraffic/lightning_logs/diff_test/version_0/checkpoints/model-epoch=09-val_loss=0.00.ckpt'
+# data_path: '/media/sheng/ssd/dataset/waymo/processed_90frame_30interval_with_label' # for test dataset '../sample_data', for train act 'act/sample_data'
+data_path: '/home/sheng/simulator/dragtraffic/dragtraffic/act/sample_data'
+
+raw_data_path: '/media/sheng/ssd/dataset/waymo/training_20s'
+agent_type: 'ego' # pedestrian 14451/49884' 'ego'49884/49884 'cyclist' 9344/27480
+use_cache: True
+vis: False
+keep_all_future: True
+cal_scr: False
+context_num: 8
+
+num_workers: 0
+batch_size: 1 # led64
+diffusion_training_step: 100
+diffusion_sample_step: 100
+embed_dim: 512 #drag 512, mae256 
+num_modes: 6
+lr: 0.0003
+weight_decay: 0.0004
+device: 'gpu'
+data_usage: 20  # 100527 in total
+pred_len: 90
+max_epoch: 100
+strategy: 'auto' #stratDDPStrategy(find_unused_parameters=False)
+wandb: False
+
+
+
