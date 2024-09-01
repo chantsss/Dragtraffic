@@ -103,6 +103,12 @@ python -m pdb ui_utils_moe.py -l 90 -p 30 -gn 10
 # Note here you should specify the act model address in init config
 ```
 
+# Acknowledgements
+
+This repository is built upon the following open-source projects:
+- [TrafficGen](https://github.com/metadriverse/trafficgen)
+- [LED](https://github.com/MediaBrain-SJTU/LED)
+
 # Citation
 If Dragtraffic is helpful in your research, please consider giving us a star or citing our work:
 
