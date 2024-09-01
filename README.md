@@ -104,8 +104,7 @@ python -m pdb ui_utils_moe.py -l 90 -p 30 -gn 10
 ```
 
 # Acknowledgements
-
-This repository is built upon the following open-source projects:
+This repository is built on the following open source projects, many thanks to them for their great work:
 - [TrafficGen](https://github.com/metadriverse/trafficgen)
 - [LED](https://github.com/MediaBrain-SJTU/LED)
 
