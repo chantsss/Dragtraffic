@@ -1,7 +1,7 @@
 # Dragtraffic
 The Repo for [Dragtraffic: Interactive and Controllable Traffic Scene Generation for Autonomous Driving](https://chantsss.github.io/Dragtraffic/).
 
-**News**: Dragtraffic has been accepted by [**IROS2024**](https://iros2024-abudhabi.org), I will try my best to release the code before the end of august.
+**News**: Dragtraffic has been accepted by [**IROS2024**](https://iros2024-abudhabi.org), The training and generation code is coming soon.
 
 [**Webpage**](https://chantsss.github.io/Dragtraffic/) | 
 [**Paper**](https://arxiv.org/abs/2404.12624) |
