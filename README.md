@@ -112,12 +112,13 @@ This repository is built on the following open source projects, many thanks to t
 If Dragtraffic is helpful in your research, please consider giving us a star or citing our work:
 
 ```bibtex
-@misc{wang2024dragtraffic,
-      title={Dragtraffic: A Non-Expert Interactive and Point-Based Controllable Traffic Scene Generation Framework}, 
-      author={Sheng Wang and Ge Sun and Fulong Ma and Tianshuai Hu and Yongkang Song and Lei Zhu and Ming Liu},
+@misc{wang2024dragtrafficinteractivecontrollabletraffic,
+      title={DragTraffic: Interactive and Controllable Traffic Scene Generation for Autonomous Driving}, 
+      author={Sheng Wang and Ge Sun and Fulong Ma and Tianshuai Hu and Qiang Qin and Yongkang Song and Lei Zhu and Junwei Liang},
       year={2024},
       eprint={2404.12624},
       archivePrefix={arXiv},
-      primaryClass={cs.RO}
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2404.12624}, 
 }
 ```
